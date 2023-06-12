@@ -1,0 +1,30 @@
+
+.container{
+    flex-grow: 1;
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+
+
+    .chatContainer {
+        height: auto;
+        background-color: aliceblue;
+        display: flex;
+
+        .left {
+            display: flex;
+            flex-direction: bottom;
+            width: 300px;
+
+        }
+
+        .right {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            background-color: aqua;
+        }
+    }
+}
+
+
