@@ -9,6 +9,52 @@ const DUMMYDATA = {
   summary: "Smash or get Smashed!",
   friends: ["Thomas", "Rafa", "Cain", "Russell"],
   birthDate: String,
+  chats: [{
+    reciever: 'Russel',
+    messages: [{
+      sender: 'user',
+      date: '12/12/2024',
+      time: '12:00',
+      message: 'what ahp dawg how you been?',
+
+
+    },
+    {
+      sender: 'user',
+      date: '12/12/2024',
+      time: '12:00',
+      message: 'its been a min',
+
+    },
+    {
+      sender: 'Russel',
+      date: '12/12/2024',
+      time: '12:00',
+      message: 'alright fag/fam wby',
+    },
+    {
+      sender: 'Russel',
+      date: '12/12/2024',
+      time: '12:00',
+      message: 'shooting dear still?',
+    },
+    {
+      sender: 'user',
+      date: '12/12/2024',
+      time: '12:00',
+      message: 'hell yea?',
+    },
+    {
+      sender: 'Russel',
+      date: '12/12/2024',
+      time: '12:00',
+      message: 'mah man',
+    },
+
+  ]
+
+    
+  }],
   blogs: [
     {
       author: "Jonny",

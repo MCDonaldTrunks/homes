@@ -1,11 +1,8 @@
 .container {
     /* Add shadows to create the "card" effect */
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    transition: 0.3s;
     padding: 2px 16px;
     margin: 5px 0 5px 0;
     background-color: white;
     border-radius: 6px;
 }
-  
-  /* On mouse-over, add a deeper shadow */
