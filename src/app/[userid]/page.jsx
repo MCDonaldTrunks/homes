@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Home from './userComponents/Userhome/page'
 
 
 
@@ -11,8 +12,7 @@ export default function page(props) {
     console.log(query)
     
     return (
-        //<div>user</div>
-       <div>user {props.params.userid}  </div>
+        <Home></Home>
     )
 }
 
