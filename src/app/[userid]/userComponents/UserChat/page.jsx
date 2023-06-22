@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './UserChat.module.scss'
 import Header from '../components/Header'
+import DUMMYDATA from '../UserDummyData'
 
 function UserChat() {
   return (
     <div className={styles.container}>
-      <Header></Header>
+      <Header data={DUMMYDATA} ></Header>
 
       <div className={styles.chatContainer}>
         <div className={styles.left}>

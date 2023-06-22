@@ -3,11 +3,17 @@ import classes from "./Header.module.scss";
 import Image from './images/logo.png';
 
 function header(props) {
+  
+
   return (
+
+    
     <header className={classes.container}>
       
       <div className={classes.logoContainer}>
-        <img src={Image.src}></img>
+        <a href={`${props.data.mainLink}`}>
+          <img src={Image.src}></img>
+        </a>
       </div>
       {props.children}
     </header>

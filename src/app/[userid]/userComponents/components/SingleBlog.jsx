@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../ui/Card";
+import Card from "@/app/ui/Card";
 import styles from "./Header.module.scss";
 
 function SingleBlog(props) {

@@ -40,7 +40,7 @@ function SidebarComponent(props) {
         {/*use classes from MenutItem on <li> tag and Link component.*/}
         <li className="ps-menuitem-root css-1t8x7v1">
 
-          <Link  className={styles.barLinks + ' ps-menu-button'} href="/User/UserChat">
+          <Link  className={styles.barLinks + ' ps-menu-button'} href={`/${props.mainLink}/Chat`}>
             Messenger
           </Link>
 
