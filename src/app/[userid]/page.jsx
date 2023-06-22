@@ -1,14 +1,19 @@
-'use client'
+
 import React from 'react'
-import { useSearchParams } from 'next/navigation'
 
 
-function page() {
-    console.log(useSearchParams().)
 
+
+export default function page(props) {
+   
+    console.log(props)
+    const query = props.params.userid
+    console.log(query)
+    
     return (
-        <div>{ useSearchParams().get('[userid]')}</div>
+        //<div>user</div>
+       <div>user {props.params.userid}  </div>
     )
 }
 
-export default page
+ 
