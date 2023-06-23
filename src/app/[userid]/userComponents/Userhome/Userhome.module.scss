@@ -1,9 +1,12 @@
 
 .container{
-    height: auto;
+    height: 100%;
     display: flex;
     background-color: aliceblue;
     flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+
 }
 
 .mainContent {
@@ -11,7 +14,7 @@
     left:0;
     margin: auto;
     height: auto;
-    width: 45%;
+    width: 45vw;
     display: flex;
     flex-direction: column;
 }

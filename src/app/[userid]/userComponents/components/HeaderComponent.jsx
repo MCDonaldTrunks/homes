@@ -1,8 +1,8 @@
 import React, { Children } from "react";
-import classes from "./Header.module.scss";
+import classes from "./HeaderComponent.module.scss";
 import Image from './images/logo.png';
 
-function header(props) {
+function Header(props) {
   
 
   return (
@@ -20,4 +20,4 @@ function header(props) {
   );
 }
 
-export default header;
+export default Header;

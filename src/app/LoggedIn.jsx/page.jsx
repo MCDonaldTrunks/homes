@@ -11,5 +11,3 @@ function page(props) {
 }
 
 export default page
-
- 

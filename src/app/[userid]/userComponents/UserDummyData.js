@@ -1,4 +1,7 @@
+
+
 const DUMMYDATA = {
+  id: "0001",
   name: "Luis",
   profileImage:
     "https://marketplace.canva.com/EAFEits4-uw/1/0/1600w/canva-boy-cartoon-gamer-animated-twitch-profile-photo-oEqs2yqaL8s.jpg",
@@ -8,7 +11,7 @@ const DUMMYDATA = {
   animes: ["One Punch Man", "DBZ", "Gate"],
   summary: "Smash or get Smashed!",
   friends: ["Thomas", "Rafa", "Cain", "Russell"],
-  birthDate: String,
+  birthDate: 'String',
   password: 'Seeyouinheaven',
   mainLink: '/Luis',
   chats: [{

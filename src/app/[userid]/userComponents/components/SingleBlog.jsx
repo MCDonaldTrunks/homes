@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "@/app/ui/Card";
-import styles from "./Header.module.scss";
+import styles from "./SingleBlog.module.scss";
 
 function SingleBlog(props) {
   return (

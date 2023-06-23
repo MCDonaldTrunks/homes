@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './UserChat.module.scss'
-import Header from '../components/Header'
+import Header from '../components/HeaderComponent'
 import DUMMYDATA from '../UserDummyData'
 
 function UserChat() {
