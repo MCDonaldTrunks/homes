@@ -4,14 +4,20 @@ import SidebarComponent from './SidebarComponent'
 import styles from './SidebarHeaderTemplate.module.scss'
 import DUMMYDATA from '../UserDummyData'
 import { Children } from 'react'
+import Footer from './Footer'
 
 function SidebarHeaderTemplate(props) {
   return (
     <div className={styles.main}>
         <Header data={DUMMYDATA}></Header>
         <div className={styles.belowHeader}>
+          
             <SidebarComponent data={DUMMYDATA}></SidebarComponent>
-            {props.children}
+            <div className={styles.mainContent}>
+              {props.children}
+              <Footer></Footer>
+            </div>
+            
         </div>
     </div>
   )

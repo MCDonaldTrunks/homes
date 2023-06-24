@@ -1,10 +1,14 @@
 .footer {
-    background-color: #f5f5f5;
+    color: white;
+    background-color: #000000;
     padding: 20px 0;
+    justify-self: end;
+    
 }
 
 .container {
     max-width: 960px;
     margin: 0 auto;
     text-align: center;
+    height: 150px;
 }

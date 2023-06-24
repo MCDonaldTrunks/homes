@@ -11,7 +11,7 @@ function Header(props) {
     <header className={classes.container}>
       
       <div className={classes.logoContainer}>
-        <a href={`${props.data.mainLink}`}>
+        <a href={`${props.data[0].mainLink}`}>
           <img src={Image.src}></img>
         </a>
       </div>

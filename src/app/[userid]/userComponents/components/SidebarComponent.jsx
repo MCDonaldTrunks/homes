@@ -27,9 +27,9 @@ function SidebarComponent(props) {
         {collapsed?<ArrowForwardIcon></ArrowForwardIcon>:<ArrowBackIcon></ArrowBackIcon>}
       </div>
       <div className={styles.imageContainer}>
-        <img src={props.data.profileImage} alt="" />
+        <img src={props.data[0].profileImage} alt="" />
       </div>
-      <h2 className={styles.sideBarUserName}>{props.data.name}</h2>
+      <h2 className={styles.sideBarUserName}>{props.data[0].firstName}</h2>
 
       <Menu>
         <SubMenu label="User">

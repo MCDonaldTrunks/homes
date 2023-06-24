@@ -5,10 +5,10 @@ import styles from "./SingleBlog.module.scss";
 function SingleBlog(props) {
   return (
     <>
-      {props.dummydata.blogs.length === 0 ? (
+      {props.dummydata[0].blogs.length === 0 ? (
         <p>no posts to show</p>
       ) : (
-        props.dummydata.blogs.map((blog) => (
+        props.dummydata[0].blogs.map((blog) => (
           <Card>
             <div className={styles.blogContainer}>
               <div className={styles.userField}>

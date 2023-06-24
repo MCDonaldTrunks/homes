@@ -18,6 +18,8 @@ function Userhome() {
           <BlogUploadForm></BlogUploadForm>
         </Card>
         <SingleBlog dummydata={DUMMYDATA}></SingleBlog>
+        
+
       </div>
     </div>
   );
